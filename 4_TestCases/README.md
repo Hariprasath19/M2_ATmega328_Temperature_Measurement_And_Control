@@ -1,14 +1,14 @@
 # TEST CASES:
 ## High Level Test cases:
-| ID    | Description                             | Expected OUTPUT | Actual OUTPUT |
+| HLR    | Description                             | Expected OUTPUT | Actual OUTPUT |
 |-------|-----------------------------------------| ------------ | ---------- |
-| H_01  |Read temperature                         |PASS       |SUCCESS     | 
-| H_02  |Sensing                                  |PASS        |SUCCESS     | 
-| H_03  |enable blinking led                      |PASS        |SUCCESS     | 
+| HLR01  |Read temperature                         |PASS       |SUCCESS     | 
+| HLR02  |Sensing                                  |PASS        |SUCCESS     | 
+| HLR03  |enable blinking led                      |PASS        |SUCCESS     | 
 
 
 ## Low Level Test Cases:
-| ID    | Description           | Expected OUTPUT | Actual OUTPUT | 
+| LLR    | Description           | Expected OUTPUT | Actual OUTPUT | 
 |-------|-----------------------| ------------ | -----------| 
-| L_01  |Open the app           | PASS       |SUCCESS      | 
-| L_02  |Reserve seat           | PASS       |SUCCESS     |
+| LLR01  |Open the app           | PASS       |SUCCESS      | 
+| LLR02  |Reserve seat           | PASS       |SUCCESS     |
