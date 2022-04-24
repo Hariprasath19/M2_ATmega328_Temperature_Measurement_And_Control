@@ -1,4 +1,4 @@
-#include "t2.h"
+#include "temp2.h"
 
 void InitADC()
 {
@@ -18,7 +18,7 @@ uint16_t ReadADC(uint8_t ch)
     return(ADC);
 }
 
-uint16_t t2_GetADC(void)
+uint16_t temp2_GetADC(void)
 {
       InitADC();
       uint16_t temp;
