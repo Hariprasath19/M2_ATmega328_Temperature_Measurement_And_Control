@@ -1,4 +1,4 @@
-#include "t4.h"
+#include "temp4.h"
 
 void USARTInit()
 {
@@ -17,7 +17,7 @@ int USARTRead()
     return UDR0;
 }
 
-void t4_USARTWrite(uint16_t temp)
+void temp4_USARTWrite(uint16_t temp)
 { 
     int i=0;
         if(temp>=0 && temp<=200){
