@@ -1,1 +1,1 @@
-
+Our Project The Temperature Measurement and Control system is used to measure and control the temperature.It has been implemented by using Atmega328 in a simulation software named SimulIDE using Embedded C.
