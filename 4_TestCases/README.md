@@ -10,6 +10,5 @@
 ## Low Level Test Cases:
 | ID    | Description           | Expected OUTPUT | Actual OUTPUT | 
 |-------|-----------------------| ------------ | -----------| 
-| L_01  |Open the app           | PASS       |SUCESS      | 
+| L_01  |Open the app           | PASS       |SUCCESS      | 
 | L_02  |Reserve seat           | PASS       |SUCCESS     |
-
