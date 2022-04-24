@@ -32,6 +32,6 @@ int USARTRead();
  * 
  * @param[in] temp The ADC value
  */
-void temp4_USARTWrite(uint16_t temp);
+void temp4_USARTWrite(uint16_t fact);
 
 #endif /* __TEMP_4_H__ */
