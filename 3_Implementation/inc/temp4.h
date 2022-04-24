@@ -1,5 +1,5 @@
-#ifndef __T_4_H__
-#define __T_4_H__
+#ifndef __TEMP_4_H__
+#define __TEMP_4_H__
 #define F_CPU 16000000UL /**< Clock Frequency of MCU is 16 MHz */
 #define USART_BAUDRATE 9600 /**< Baud rate for serial communication  */
 #define UBRR_VALUE (((F_CPU / (USART_BAUDRATE * 16UL))) - 1) /**< Formula to calculate UBRR value */
@@ -32,6 +32,6 @@ int USARTRead();
  * 
  * @param[in] temp The ADC value
  */
-void t4_USARTWrite(uint16_t temp);
+void temp4_USARTWrite(uint16_t temp);
 
-#endif /* __T_4_H__ */
+#endif /* __TEMP_4_H__ */
