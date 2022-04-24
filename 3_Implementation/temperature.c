@@ -1,7 +1,7 @@
-#include "t1.h"
-#include "t2.h"
-#include "t3.h"
-#include "t4.h"
+#include "temp1.h"
+#include "temp2.h"
+#include "temp3.h"
+#include "temp4.h"
 
 int main(void)
 {
@@ -9,13 +9,13 @@ int main(void)
 	
 	while(1)
 	{
-		if(t1_LED()==1) //Check if both the switches are pressed
+		if(temp1_LED()==1) //Check if both the switches are pressed
 		{
 			
 			TurnLED_ON();//Turn LED ON
-			temp=t2_GetADC(); //Get the ADC value
-			t3_PWM(temp); //PWM output based on temperature
-			t4_USARTWrite(temp); //To Serial monitor to print Temperature
+			temp=temp2_GetADC(); //Get the ADC value
+			temp3_PWM(temp); //PWM output based on temperature
+			temp4_USARTWrite(temp); //To Serial monitor to print Temperature
 			
 
 		}
