@@ -25,13 +25,13 @@ void peripheral_init(void);
  * @brief Function to turn LED on
  * 
  */
-void TurnLED_ON();
+void LED_ON();
 
 /**
  * @brief Function to turn LED off
  * 
  */
-void TurnLED_OFF();
+void LED_OFF();
 
 /**
  * @brief TEMP 1 to Turn ON LED if switches for Button sensor and Heator sensor are pressed 
