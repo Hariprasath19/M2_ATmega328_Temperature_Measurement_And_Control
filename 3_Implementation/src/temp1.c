@@ -1,4 +1,4 @@
-#include "t1.h"
+#include "temp1.h"
 
 void peripheral_init(void)
 {	
@@ -18,7 +18,7 @@ void TurnLED_OFF(){
 }
 
 int act1=0;
-int t1_LED(void)
+int temp1_LED(void)
 {
        peripheral_init();
         if(!(PIND&(1<<BUTTON_SENSOR )) && !(PIND&(1<<TEMP_SENSOR))) //both the switches are pressed
