@@ -1,5 +1,5 @@
-#include "t3.h"
-#include "t2.h"
+#include "temp3.h"
+#include "temp2.h"
 
 void InitTimer()
 {
@@ -8,7 +8,7 @@ void InitTimer()
     DDRB |=(1<<PB1);
 }
 
-void t3_PWM(uint16_t temp)
+void temp3_PWM(uint16_t temp)
 {
     InitTimer();
     if(temp>=0 && temp<=200){
