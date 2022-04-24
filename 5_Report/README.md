@@ -48,7 +48,7 @@ In vehicles, the areas at which the temperature is low.
 By installing the system in vehicles.
 
 # High Level Requirements
-| ID | Description | 
+| HLR | Description | 
 |----| ------------| 
 |HLR1  | When the two switches are closed, the first LED glows indicating the actuation of the system and the heater. | 
 |HLR2  | Analog i/p from the temperature sensor | 
@@ -56,7 +56,7 @@ By installing the system in vehicles.
 
 # Low Level Requirements
 
-| ID | Description |
+| HLR | Description |
 |-------|------|
 | LLR1 | ADC with PWM| 
 | LLR2 | Compatible on different OS |
@@ -73,18 +73,18 @@ By installing the system in vehicles.
 # **TEST CASES:**
 
 ## High Level Test cases:
-| ID    | Description                             | Expected OUTPUT | Actual OUTPUT |
+| HLT    | Description                             | Expected OUTPUT | Actual OUTPUT |
 |-------|-----------------------------------------| ------------ | ---------- |
-| H_01  |Read temperature                         |PASS       |SUCCESS     | 
-| H_02  |Sensing                                  |PASS        |SUCCESS     | 
-| H_03  |enable blinking led                      |PASS        |SUCCESS     | 
+| HLT01  |Read temperature                         |PASS       |SUCCESS     | 
+| HLT02  |Sensing                                  |PASS        |SUCCESS     | 
+| HLT03  |enable blinking led                      |PASS        |SUCCESS     | 
 
 
 ## Low Level Test Cases:
-| ID    | Description           | Expected OUTPUT | Actual OUTPUT | 
+| LLT    | Description           | Expected OUTPUT | Actual OUTPUT | 
 |-------|-----------------------| ------------ | -----------| 
-| L_01  |Open the app           | PASS       |SUCCESS      | 
-| L_02  |Reserve seat           | PASS       |SUCCESS     |
+| LLT01  |Open the app           | PASS       |SUCCESS      | 
+| LLT02  |Reserve seat           | PASS       |SUCCESS     |
 
 # **OUTPUT:**
 ![temperature1](https://user-images.githubusercontent.com/101514904/164967458-bc5439b5-159d-478b-8348-c916ad1c966a.png)
