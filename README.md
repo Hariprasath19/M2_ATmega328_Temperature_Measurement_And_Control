@@ -1,1 +1,1 @@
-# M2_ProjectGoal
+# M2_ATmega328_Temperature_Measurement_And_Control
