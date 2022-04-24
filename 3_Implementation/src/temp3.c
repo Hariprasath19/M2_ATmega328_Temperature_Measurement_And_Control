@@ -8,22 +8,22 @@ void InitTimer()
     DDRB |=(1<<PB1);
 }
 
-void temp3_PWM(uint16_t temp)
+void temp3_PWM(uint16_t fact)
 {
     InitTimer();
-    if(temp>=0 && temp<=200){
+    if(fact>=0 && fact<=200){
             OCR1A = PWM_20_PERCENT;
             _delay_ms(200);
         }
-        else if(temp>=210 && temp<=500){
+        else if(fact>=210 && fact<=500){
              OCR1A = PWM_40_PERCENT;
             _delay_ms(200);
         }
-        else if(temp>=510 && temp<=700){
+        else if(fact>=510 && fact<=700){
              OCR1A = PWM_70_PERCENT;
             _delay_ms(200);
         }
-        else if(temp>=710 && temp<=1024){
+        else if(fact>=710 && fact<=1024){
              OCR1A = PWM_95_PERCENT;
             _delay_ms(200);
         }
