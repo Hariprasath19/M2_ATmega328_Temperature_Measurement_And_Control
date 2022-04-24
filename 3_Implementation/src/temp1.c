@@ -9,11 +9,11 @@ void peripheral_init(void)
     PORTD |= (1<<PD1); //set bit PD0 for HeaterSwitch
 }
 
-void TurnLED_ON(){
+void LED_ON(){
     LED_PORT |= (1<<LED_PIN); 
 }
 
-void TurnLED_OFF(){
+void LED_OFF(){
     LED_PORT &= ~(1<<LED_PIN);
 }
 
