@@ -48,7 +48,7 @@ In vehicles, the areas at which the temperature is low.
 By installing the system in vehicles.
 
 # High Level Requirements
-| ID | Description | 
+| HLR | Description | 
 |----| ------------| 
 |HLR1  | When the two switches are closed, the first LED glows indicating the actuation of the system and the heater. | 
 |HLR2  | Analog i/p from the temperature sensor | 
@@ -56,7 +56,7 @@ By installing the system in vehicles.
 
 # Low Level Requirements
 
-| ID | Description |
+| LLR | Description |
 |-------|------|
 | LLR1 | ADC with PWM| 
 | LLR2 | Compatible on different OS |
