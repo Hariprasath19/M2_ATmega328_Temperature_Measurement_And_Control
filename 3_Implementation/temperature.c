@@ -5,23 +5,23 @@
 
 int main(void)
 {
-	uint16_t temp;
+	uint16_t fact;
 	
 	while(1)
 	{
 		if(temp1_LED()==1) //Check if both the switches are pressed
 		{
 			
-			TurnLED_ON();//Turn LED ON
-			temp=temp2_GetADC(); //Get the ADC value
-			temp3_PWM(temp); //PWM output based on temperature
-			temp4_USARTWrite(temp); //To Serial monitor to print Temperature
+			LED_ON();//Turn LED ON
+			fact=temp2_GetADC(); //Get the ADC value
+			temp3_PWM(fact); //PWM output based on temperature
+			temp4_USARTWrite(fact); //To Serial monitor to print Temperature
 			
 
 		}
 		else  //in all other cases
 		{
-			TurnLED_OFF();//Turn LED OFF
+			LED_OFF();//Turn LED OFF
 			_delay_ms(200);
 		}
 
