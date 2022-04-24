@@ -1,5 +1,5 @@
-#ifndef __T_2_H__
-#define __T_2_H__
+#ifndef __TEMP_2_H__
+#define __TEMP_2_H__
 #include <util/delay.h>
 #include <avr/io.h>
 
@@ -26,6 +26,6 @@ uint16_t ReadADC(uint8_t ch);
  * 
  * @return uint16_t The ADC value
  */
-uint16_t t2_GetADC(void);
+uint16_t temp2_GetADC(void);
 
-#endif /* __T_2_H__ */
+#endif /* __TEMP_2_H__ */
