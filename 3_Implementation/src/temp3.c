@@ -8,7 +8,7 @@ void InitTimer()
     DDRB |=(1<<PB1);
 }
 
-void act3_PWM(uint16_t temp)
+void temp3_PWM(uint16_t temp)
 {
     InitTimer();
     if(temp>=0 && temp<=200){
