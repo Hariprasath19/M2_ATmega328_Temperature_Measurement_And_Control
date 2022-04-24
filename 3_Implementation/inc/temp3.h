@@ -26,6 +26,6 @@ void InitTimer();
  * 
  * @param[in] temp The ADC value from temp2
  */
-void act3_PWM(uint16_t temp);
+void temp3_PWM(uint16_t temp);
 
 #endif /* __TEMP_3_H__ */
