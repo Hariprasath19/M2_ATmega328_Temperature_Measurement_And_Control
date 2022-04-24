@@ -1,5 +1,5 @@
-#ifndef __T_1_H__
-#define __T_1_H__
+#ifndef __TEMP_1_H__
+#define __TEMP_1_H__
 
 #define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
 #define LED_PORT (PORTD)    /**< LED Port Number */
@@ -34,9 +34,9 @@ void TurnLED_ON();
 void TurnLED_OFF();
 
 /**
- * @brief T 1 to Turn ON LED if switches for Button sensor and Heator sensor are pressed 
+ * @brief TEMP 1 to Turn ON LED if switches for Button sensor and Heator sensor are pressed 
  * 
  */
-int t1_LED(void);
+int temp1_LED(void);
 
-#endif /* __T_1_H__ */
+#endif /* __TEMP_1_H__ */
