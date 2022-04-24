@@ -1,1 +1,1 @@
-# Implemented all the codings of the Project
+# Implemented all the entire codes of the Project
