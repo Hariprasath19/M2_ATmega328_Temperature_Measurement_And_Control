@@ -8,7 +8,7 @@
 
 
 ## Low Level Test Cases:
-| LLR    | Description           | Expected OUTPUT | Actual OUTPUT | 
+| LLT    | Description           | Expected OUTPUT | Actual OUTPUT | 
 |-------|-----------------------| ------------ | -----------| 
 | LLT01  |Open the app           | PASS       |SUCCESS      | 
 | LLT02  |Reserve seat           | PASS       |SUCCESS     |
